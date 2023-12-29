@@ -29,6 +29,7 @@ if (flutterRoot == null) {
 }
 apply plugin: 'com.android.library'
 android {
+    namespace = "com.jlcool.flutterziparchive"
     compileSdkVersion 28
 
     defaultConfig {
